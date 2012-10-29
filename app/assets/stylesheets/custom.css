@@ -1,0 +1,211 @@
+.container {
+	width: 710px;
+	background:#f9f9f9;
+	padding: 15px 15px;
+}
+
+body {
+	background: #fff;
+}
+
+header {
+	position:relative;
+	width:1180px;
+	float:left;
+	padding: 10px;
+	margin-bottom: 15px;
+	background-image: url(logo_ge.jpg);
+	background-repeat: no-repeat;
+	background-size: 14%;
+   	background-position: right;
+}	
+
+header img {
+	float:left;
+	background: #fff;
+}
+
+section {
+	clear:both;
+	margin:0 auto;
+	font-size: 120%;
+	padding: 20px;
+	background: #000;
+}
+
+section h1 {
+	font-size: 200%;
+}
+
+footer {
+	background-image: url(centro.png);
+	background-size: 100%;
+	background-repeat: no-repeat; 
+	/* text-align: center; */
+	margin-top: 10px;
+	width: 1200px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+footer nav {
+	padding-top: 60px;
+	float: none;
+	font-size:x-small;
+}
+
+#derechos {
+	position:absolute;
+	margin-top: 180px;
+	margin-left: 500px;
+	color: white;
+}
+
+footer p {
+	font-size: 8.5px;
+	font-weight:bold;
+	text-align:right;
+	padding-right: 10px;
+}
+
+/* Links */
+
+a {
+	color: #09c;
+	text-decoration: none;
+}
+ 
+a:hover {
+	color: #069;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #069;
+}
+
+/* Navigation */
+
+header nav {
+   	margin-top: 80px;
+   	margin-left: 50px;
+   	float:left;
+   	width: 280px;
+	background-color: white;
+	white-space: nowrap;
+	font-size: 130%;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0.8em 0;
+}
+
+nav ul li a {
+	padding: 0 5px;
+	font-weight: bold;
+}
+
+nav ul li a:visited {
+	color: #09c;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+/* Destacados button */
+
+a.destaca_button1 {
+/*	margin-left: auto;
+	margin-right: auto;   */
+	float:left;
+	display: block;
+	text-align:justify;
+	width: 80px;
+	height: 70px;
+	color: #fff;
+/*	background: #006400;   */
+	background: #000;
+	background-image: url(fotos/EstadEduc2.jpg);
+	background-repeat: no-repeat;
+	background-size: 57%;
+   	background-position: left;	
+	font-size:medium;
+	font-weight: bold;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:10px;
+	padding-left:133px;
+}
+
+a.destaca_button2 {
+	margin-left: 20px;
+/*	margin-right: auto;   */
+	float:left;
+	display: block;
+	text-align:justify;
+	width: 80px;
+	height: 70px;
+	color: #fff;
+/*	background: #006400;   */
+	background: #000;
+	background-image: url(fotos/SAID2.jpg);
+	background-repeat: no-repeat;
+	background-size: 57%;
+   	background-position: left;	
+	font-size:smaller;
+	font-weight: bold;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:10px;
+	padding-left:133px;
+}
+
+a.destaca_button3 {
+	margin-left: 20px;
+/*	margin-right: auto;   */
+	float:left;
+	display: block;
+	text-align:justify;
+	width: 80px;
+	height: 70px;
+	color: #fff;
+/*	background: #006400;   */
+	background: #000;
+	background-image: url(fotos/DesSis2.jpg);
+	background-repeat: no-repeat;
+	background-size: 57%;
+   	background-position: left;	
+	font-size:medium;
+	font-weight: bold;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:10px;
+	padding-left:133px;
+}
+
+/* Round corners */
+
+.round {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.barra {
+	width: 700px;
+	height:12px;
+	background: url(Tabique1.jpg);
+}
+
+.derecha {
+	margin-left: 600px;
+}

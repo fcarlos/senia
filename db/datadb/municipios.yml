@@ -1,0 +1,383 @@
+
+--- 
+municipios: 
+  columns: 
+  - id
+  - nommun
+  - depreg
+  records: 
+  - - 1
+    - ACAMBAY
+    - "01"
+  - - 2
+    - ACOLMAN
+    - "03"
+  - - 3
+    - ACULCO
+    - "13"
+  - - 4
+    - ALMOLOYA DE ALQUISIRAS
+    - "11"
+  - - 5
+    - ALMOLOYA DE JUAREZ
+    - "06"
+  - - 6
+    - ALMOLOYA DEL RIO
+    - "07"
+  - - 7
+    - AMANALCO
+    - 08
+  - - 8
+    - AMATEPEC
+    - "12"
+  - - 9
+    - AMECAMECA
+    - "10"
+  - - 10
+    - APAXCO
+    - "02"
+  - - 11
+    - ATENCO
+    - "14"
+  - - 12
+    - ATIZAPAN
+    - "07"
+  - - 13
+    - ATIZAPAN DE ZARAGOZA
+    - "05"
+  - - 14
+    - ATLACOMULCO
+    - "01"
+  - - 15
+    - ATLAUTLA
+    - "10"
+  - - 16
+    - AXAPUSCO
+    - "02"
+  - - 17
+    - AYAPANGO
+    - "10"
+  - - 18
+    - CALIMAYA
+    - "07"
+  - - 19
+    - CAPULHUAC
+    - "07"
+  - - 20
+    - COACALCO DE BERRIOZABAL
+    - "03"
+  - - 21
+    - COATEPEC HARINAS
+    - "11"
+  - - 22
+    - COCOTITLAN
+    - "10"
+  - - 23
+    - COYOTEPEC
+    - "04"
+  - - 24
+    - CUAUTITLAN
+    - "04"
+  - - 25
+    - CHALCO
+    - "10"
+  - - 26
+    - CHAPA DE MOTA
+    - "13"
+  - - 27
+    - CHAPULTEPEC
+    - "07"
+  - - 28
+    - CHIAUTLA
+    - "14"
+  - - 29
+    - CHICOLOAPAN
+    - "14"
+  - - 30
+    - CHICONCUAC
+    - "14"
+  - - 31
+    - CHIMALHUACAN
+    - "14"
+  - - 32
+    - DONATO GUERRA
+    - 08
+  - - 33
+    - ECATEPEC DE MORELOS
+    - "03"
+  - - 34
+    - ECATZINGO
+    - "10"
+  - - 35
+    - HUEHUETOCA
+    - "04"
+  - - 36
+    - HUEYPOXTLA
+    - "02"
+  - - 37
+    - HUIXQUILUCAN
+    - "07"
+  - - 38
+    - ISIDRO FABELA
+    - "05"
+  - - 39
+    - IXTAPALUCA
+    - 09
+  - - 40
+    - IXTAPAN DE LA SAL
+    - "11"
+  - - 41
+    - IXTAPAN DEL ORO
+    - 08
+  - - 42
+    - IXTLAHUACA
+    - "01"
+  - - 43
+    - XALATLACO
+    - "07"
+  - - 44
+    - JALTENCO
+    - "02"
+  - - 45
+    - JILOTEPEC
+    - "13"
+  - - 46
+    - JILOTZINGO
+    - "05"
+  - - 47
+    - JIQUIPILCO
+    - "01"
+  - - 48
+    - JOCOTITLAN
+    - "01"
+  - - 49
+    - JOQUICINGO
+    - "11"
+  - - 50
+    - JUCHITEPEC
+    - "10"
+  - - 51
+    - LERMA
+    - "07"
+  - - 52
+    - MALINALCO
+    - "11"
+  - - 53
+    - MELCHOR OCAMPO
+    - "04"
+  - - 54
+    - METEPEC
+    - "07"
+  - - 55
+    - MEXICALTZINGO
+    - "07"
+  - - 56
+    - MORELOS
+    - "13"
+  - - 57
+    - NAUCALPAN DE JUAREZ
+    - "05"
+  - - 58
+    - NEZAHUALCOYOTL
+    - 09
+  - - 59
+    - NEXTLALPAN
+    - "02"
+  - - 60
+    - NICOLAS ROMERO
+    - "05"
+  - - 61
+    - NOPALTEPEC
+    - "02"
+  - - 62
+    - OCOYOACAC
+    - "07"
+  - - 63
+    - OCUILAN
+    - "11"
+  - - 64
+    - EL ORO
+    - "01"
+  - - 65
+    - OTUMBA
+    - "02"
+  - - 66
+    - OTZOLOAPAN
+    - 08
+  - - 67
+    - OTZOLOTEPEC
+    - "06"
+  - - 68
+    - OZUMBA
+    - "10"
+  - - 69
+    - PAPALOTLA
+    - "14"
+  - - 70
+    - LA PAZ
+    - 09
+  - - 71
+    - POLOTITLAN
+    - "13"
+  - - 72
+    - RAYON
+    - "07"
+  - - 73
+    - SAN ANTONIO LA ISLA
+    - "07"
+  - - 74
+    - SAN FELIPE DEL PROGRESO
+    - "01"
+  - - 75
+    - SAN MARTIN DE LAS PIRAMIDES
+    - "02"
+  - - 76
+    - SAN MATEO ATENCO
+    - "07"
+  - - 77
+    - SAN SIMON DE GUERRERO
+    - "12"
+  - - 78
+    - SANTO TOMAS
+    - 08
+  - - 79
+    - SOYANIQUILPAN DE JUAREZ
+    - "13"
+  - - 80
+    - SULTEPEC
+    - "11"
+  - - 81
+    - TECAMAC
+    - "02"
+  - - 82
+    - TEJUPILCO
+    - "12"
+  - - 83
+    - TEMAMATLA
+    - "10"
+  - - 84
+    - TEMASCALAPA
+    - "02"
+  - - 85
+    - TEMASCALCINGO
+    - "01"
+  - - 86
+    - TEMASCALTEPEC
+    - "12"
+  - - 87
+    - TEMOAYA
+    - "06"
+  - - 88
+    - TENANCINGO
+    - "11"
+  - - 89
+    - TENANGO DEL AIRE
+    - "10"
+  - - 90
+    - TENANGO DEL VALLE
+    - "07"
+  - - 91
+    - TEOLOYUCAN
+    - "04"
+  - - 92
+    - TEOTIHUACAN
+    - "02"
+  - - 93
+    - TEPETLAOXTOC
+    - "14"
+  - - 94
+    - TEPETLIXPA
+    - "10"
+  - - 95
+    - TEPOTZOTLAN
+    - "04"
+  - - 96
+    - TEQUIXQUIAC
+    - "02"
+  - - 97
+    - TEXCALTITLAN
+    - "11"
+  - - 98
+    - TEXCALYACAC
+    - "07"
+  - - 99
+    - TEXCOCO
+    - "14"
+  - - 100
+    - TEZOYUCA
+    - "14"
+  - - 101
+    - TIANGUISTENCO
+    - "07"
+  - - 102
+    - TIMILPAN
+    - "13"
+  - - 103
+    - TLALMANALCO
+    - "10"
+  - - 104
+    - TLALNEPANTLA DE BAZ
+    - "05"
+  - - 105
+    - TLATLAYA
+    - "12"
+  - - 106
+    - TOLUCA
+    - "06"
+  - - 107
+    - TONATICO
+    - "11"
+  - - 108
+    - TULTEPEC
+    - "04"
+  - - 109
+    - TULTITLAN
+    - "04"
+  - - 110
+    - VALLE DE BRAVO
+    - 08
+  - - 111
+    - VILLA DE ALLENDE
+    - 08
+  - - 112
+    - VILLA DEL CARBON
+    - "13"
+  - - 113
+    - VILLA GUERRERO
+    - "11"
+  - - 114
+    - VILLA VICTORIA
+    - 08
+  - - 115
+    - XONACATLAN
+    - "06"
+  - - 116
+    - ZACAZONAPAN
+    - 08
+  - - 117
+    - ZACUALPAN
+    - "11"
+  - - 118
+    - ZINACANTEPEC
+    - "06"
+  - - 119
+    - ZUMPAHUACAN
+    - "11"
+  - - 120
+    - ZUMPANGO
+    - "02"
+  - - 121
+    - CUAUTITLAN IZCALLI
+    - "04"
+  - - 122
+    - VALLE DE CHALCO SOLIDARIDAD
+    - "10"
+  - - 123
+    - LUVIANOS
+    - "12"
+  - - 124
+    - SAN JOSE DEL RINCON
+    - "01"
+  - - 125
+    - TONANITLA
+    - "02"
