@@ -1,14 +1,30 @@
-<header>
+<header class = "round">
 	
-	<%= link_to(logo_diys, root_path) %>
+	<%= link_to(logo_La_Se, root_path) %>
+
+	<nav class="round">
+		<ul>
+			<li style = "color: white;"><%= link_to "Inicio", root_path %></li>
+			<li><%= link_to "Quienes somos", quienes_somos_path %></li>
+			<li><%= link_to "Videos", videos_path %></li>
+			<li><%= link_to("Contacto", contacto_path) %></li>
+		</ul>
+	</nav>
+	
+<!--	
+	<%= link_to(logo_La_Se, root_path) %> 
 	
 	<nav class="round">
 		<ul>
 			<li><%= link_to "Inicio", root_path %></li>
 			<li><%= link_to "Quienes somos", quienes_somos_path %></li>
-			<li><%= link_to "Servicios", servicios_path %></li>
+			<li><%= link_to "Videos", videos_path %></li>
 			<li><%= link_to("Contacto", contacto_path) %></li>
 		</ul>
 	</nav>
 	
+	<div style="margin-left: 1150px">
+		<%= link_to(logo_La_Se, root_path) %> 
+	</div>	
+-->
 </header>

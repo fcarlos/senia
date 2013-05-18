@@ -11,6 +11,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 0) do
+ActiveRecord::Schema.define(:version => 20121018145526) do
+
+  create_table "municipios", :force => true do |t|
+    t.string   "nommun",     :limit => 35, :null => false
+    t.string   "depreg",     :limit => 2,  :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

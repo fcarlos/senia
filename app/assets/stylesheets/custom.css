@@ -1,98 +1,117 @@
-.container {
-	width: 710px;
-	background:#f9f9f9;
-	padding: 15px 15px;
+aside, article, section, header, footer, nav {
+	display: block;
 }
-
+aside, article, section, header, footer, nav, html, body, p, h1, h2, h3, div {
+	margin: 0;
+	padding:0;
+}
+html {
+	background-image: url(TabTen.png);
+}
 body {
-	background: #fff;
+	background-image: url(TabTen.png);
+}
+.container {
+	width: 985px;
+	margin: 0 auto;
+	margin-top: 5px;
+	background:#fff;
+	padding: 10px 10px;
+	border: 1px solid black;
 }
 
 header {
-	position:relative;
-	width:1180px;
-	float:left;
-	padding: 10px;
-	margin-bottom: 15px;
-	background-image: url(logo_ge.jpg);
+	width: 1290px;
+	height: 140px;
+	background-image: -moz-linear-gradient(0deg, #ffffff 15%, #900 180%);
+	filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=1, startColorStr=#FFFFFF 20%, endColorStr=#B4EAFA 80%);
+	background: -webkit-gradient(linear, left top, right top, from(#ffffff) 20%, to(#B4EAFA) 80%);	
+/*	
+	width: 1290px;
+	height: 140px;	
+	/* margin-bottom: 15px; */
+/*	background-image: url(Xinantecatl.png);
 	background-repeat: no-repeat;
-	background-size: 14%;
-   	background-position: right;
-}	
+	background-size: 78%;
+   	background-position: center;  
+   	margin: 2px;
+*/
+}
 
 header img {
 	float:left;
 	background: #fff;
 }
 
-section {
+article {
+	float: left;
 	clear:both;
-	margin:0 auto;
+	margin-left: 0px; 
 	font-size: 120%;
-	padding: 20px;
-	background: #000;
+	background:#fff;		
 }
 
-section h1 {
-	font-size: 200%;
+aside {
+	float: right;
+	width: 390px;
+	padding: 0 10px;
+	border: 1px solid #aaa;
+	font: 1em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.reproductor {
+	clear:both;
+	margin: 20px auto;
+	padding: 10px;	
+	width: 305px;
 }
 
 footer {
-	background-image: url(centro.png);
+	clear: both;
+	background: #fff;
+    background-image: url(Xinantecatl.png);
+	background-repeat: no-repeat;
 	background-size: 100%;
-	background-repeat: no-repeat; 
-	/* text-align: center; */
-	margin-top: 10px;
-	width: 1200px;
-	height: 400px;
+   	background-position: center;  
+	width: 1280px;
+	height: 150px;
+	margin-top: 5px;
 	margin-left: auto;
-	margin-right: auto;	
+	margin-right: auto;
+	line-height: 1.5em;
 }
 
 footer nav {
-	padding-top: 60px;
+	padding-top: 10px;
 	float: none;
 	font-size:x-small;
 }
 
 #derechos {
 	position:absolute;
-	margin-top: 180px;
+	margin-top: 85px;
 	margin-left: 500px;
-	color: white;
+	color: black;
+	font-size: 14px;
+	font-weight:bold;
 }
 
 footer p {
-	font-size: 8.5px;
-	font-weight:bold;
+	font-size: 12px;
 	text-align:right;
 	padding-right: 10px;
 }
 
 /* Links */
 
-a {
-	color: #09c;
-	text-decoration: none;
-}
- 
-a:hover {
-	color: #069;
-	text-decoration: underline;
-}
-
-a:visited {
-	color: #069;
-}
 
 /* Navigation */
 
 header nav {
-   	margin-top: 80px;
-   	margin-left: 50px;
+   	margin-top: 100px;
+   	margin-left: 610px;
    	float:left;
-   	width: 280px;
-	background-color: white;
+   	width: 380px;
 	white-space: nowrap;
 	font-size: 130%;
 }
@@ -111,6 +130,8 @@ nav ul li {
 nav ul li a {
 	padding: 0 5px;
 	font-weight: bold;
+	text-decoration: none;
+	color: #ffffff;
 }
 
 nav ul li a:visited {
@@ -123,74 +144,7 @@ nav ul li a:hover {
 
 /* Destacados button */
 
-a.destaca_button1 {
-/*	margin-left: auto;
-	margin-right: auto;   */
-	float:left;
-	display: block;
-	text-align:justify;
-	width: 80px;
-	height: 70px;
-	color: #fff;
-/*	background: #006400;   */
-	background: #000;
-	background-image: url(fotos/EstadEduc2.jpg);
-	background-repeat: no-repeat;
-	background-size: 57%;
-   	background-position: left;	
-	font-size:medium;
-	font-weight: bold;
-	padding-top:10px;
-	padding-bottom:10px;
-	padding-right:10px;
-	padding-left:133px;
-}
 
-a.destaca_button2 {
-	margin-left: 20px;
-/*	margin-right: auto;   */
-	float:left;
-	display: block;
-	text-align:justify;
-	width: 80px;
-	height: 70px;
-	color: #fff;
-/*	background: #006400;   */
-	background: #000;
-	background-image: url(fotos/SAID2.jpg);
-	background-repeat: no-repeat;
-	background-size: 57%;
-   	background-position: left;	
-	font-size:smaller;
-	font-weight: bold;
-	padding-top:10px;
-	padding-bottom:10px;
-	padding-right:10px;
-	padding-left:133px;
-}
-
-a.destaca_button3 {
-	margin-left: 20px;
-/*	margin-right: auto;   */
-	float:left;
-	display: block;
-	text-align:justify;
-	width: 80px;
-	height: 70px;
-	color: #fff;
-/*	background: #006400;   */
-	background: #000;
-	background-image: url(fotos/DesSis2.jpg);
-	background-repeat: no-repeat;
-	background-size: 57%;
-   	background-position: left;	
-	font-size:medium;
-	font-weight: bold;
-	padding-top:10px;
-	padding-bottom:10px;
-	padding-right:10px;
-	padding-left:133px;
-}
 
 /* Round corners */
 
@@ -200,12 +154,16 @@ a.destaca_button3 {
 	border-radius: 10px;
 }
 
-.barra {
-	width: 700px;
-	height:12px;
-	background: url(Tabique1.jpg);
-}
-
-.derecha {
-	margin-left: 600px;
+h3	/* Cabeceras */
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 17px;
+	font-style: italic;
+	background-image: -moz-linear-gradient(0deg, #900, #fdffff);
+	filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=1, startColorStr=#B4EAFA, endColorStr=#FDFFFF);
+	background: -webkit-gradient(linear, left top, right top, from(#B4EAFA), to(#fdffff));
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	color:#fff;
 }

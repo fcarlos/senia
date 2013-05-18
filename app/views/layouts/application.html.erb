@@ -1,19 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Sistemas</title>
+  <title>Grupo La Seña</title>
   <%= csrf_meta_tags %>
   <%= render 'layouts/stylesheets' %>
   <%= javascript_include_tag('jquery-1.8.2.min') %>
   <%= javascript_include_tag('jquery.dhonishow-min') %>
+  
+  
 </head>
-<body>
-	<div>
-		<%= render 'layouts/header' %>
-		<section class="container round">
-			<%= yield %>
+<body>		
+	<%= render 'layouts/header' %>
+	<div class="container round">	
+		<article class="round" >
+		<section >
+			<div class='dhonishow autoplay_4dot5' style="float: left;" >
+				<%= image_tag("fotos/La_Se_9851.jpg", :alt => "La Seña", :size => "565x330") %>
+				<%= image_tag("fotos/La_Se_AgCal.jpg", :alt => "La Seña", :size => "565x330") %>
+				<%= image_tag("fotos/La_Se_Esce.jpg", :alt => "La Seña", :size => "565x330") %>
+			</div>
 		</section>
-		<%= render 'layouts/footer' %>
+		<div class="reproductor">
+			<br />
+			<h3>Temas de muestra: </h3>
+			<br />
+			<p>Pista 1:</p> 
+            <audio class="audio" controls >
+               <source src="/assets/Aguita.ogg"></source>
+            </audio>
+            <br />
+            <p>Pista 2:</p>        
+            <audio class="audio" controls preload>
+               <source src="/assets/Lentement.ogg"></source>
+            </audio>
+			<p>Pista 3:</p>
+            <audio class="audio" controls >
+               <source src="/assets/Aguita.ogg"></source>
+            </audio>
+            <br />
+            <p>Pista 4:</p>       
+            <audio class="audio" controls preload>
+               <source src="/assets/Lentement.ogg"></source>
+            </audio>               			
+		</div>
+				
+		</article>
+		<aside class = "round" >
+			<%= yield %>
+		</aside>								
 	</div>
+	<%= render 'layouts/footer' %>
 </body>
 </html>

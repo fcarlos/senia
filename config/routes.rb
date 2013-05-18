@@ -1,8 +1,6 @@
 Sistemas::Application.routes.draw do
   
-  get "localidad/index"
   get "home/inicio"
-  get "municipio/index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -56,10 +54,8 @@ Sistemas::Application.routes.draw do
   root :to => 'home#inicio'
   
   match "/quienes_somos", :to => "home#quienes_somos"
-  match "/servicios", :to => "home#servicios"
+  match "/videos", :to => "home#videos"
   match "/contacto", :to => "home#contacto"
-  match "/estadistica", :to => "home#estadistica"
-  match "/said", :to => "home#said"
   match "/desarrollo", :to => "home#desarrollo"
 
   # See how all your routes lay out with "rake routes"
